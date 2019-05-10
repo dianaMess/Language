@@ -3,8 +3,8 @@
 #include<vector>
 #include<string>
 #include<cstdio>
-#include"lexem.h"
-#include"poliz.h"
+#include"../headers/lexem.h"
+#include"../headers/poliz.h"
 using namespace std;
 void joinGotoAndLabel(VARIABLE *lexemvar, stack<Oper *> &stack, map<string, int> &Ltable) {
     if (stack.top()->getName() == "goto") {

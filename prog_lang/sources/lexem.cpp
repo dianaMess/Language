@@ -7,7 +7,7 @@
 #include<cctype>
 #include<algorithm>
 #include<cstdio>
-#include"lexem.h"
+#include"../headers/lexem.h"
 
 using namespace std;
     Lexem::Lexem() {}

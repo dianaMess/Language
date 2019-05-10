@@ -3,9 +3,9 @@
 #include<string>
 #include<stack>
 #include<map>
-#include"lexem.h"
-#include"poliz.h"
-#include"executor.h"
+#include"../headers/lexem.h"
+#include"../headers/poliz.h"
+#include"../headers/executor.h"
 void exec::initLabels(std::vector<Lexem *> &infix, int row) {
     for (int i = 1; i < (int)infix.size(); i++) {
         if(infix[i - 1]->ltype() == "Var" && infix[i]->ltype() == "Oper") {
